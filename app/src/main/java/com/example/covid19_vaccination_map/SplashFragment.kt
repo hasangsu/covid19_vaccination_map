@@ -34,9 +34,11 @@ class SplashFragment : Fragment() {
     override fun onStart() {
         super.onStart()
 
+        binding.progressBar.progress = 99
+
         Handler(Looper.getMainLooper()).postDelayed({
             navController.navigate(R.id.action_splashFragment_to_mapFragment)
-        }, 2000)
+        }, 10000)
 
     }
 
