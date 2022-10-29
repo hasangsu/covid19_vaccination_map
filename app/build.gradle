@@ -49,4 +49,7 @@ dependencies {
     // 젯팩 네비게이션 의존성
     implementation "androidx.navigation:navigation-fragment-ktx:2.5.1"
     implementation "androidx.navigation:navigation-ui-ktx:2.5.1"
+
+    // 네이버맵 의존성
+    implementation 'com.naver.maps:map-sdk:3.12.0'
 }
